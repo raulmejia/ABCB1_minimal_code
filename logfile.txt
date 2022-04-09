@@ -1,0 +1,419 @@
+robust_score_bydist. min_exp= 3.75 , min_std= 11.91253 
+pathway  1 > sig: 0.0344178 
+pathway  2 > sig: 0.002613575 
+pathway  3 > sig: 0.05179665 
+pathway  4 > sig: 0.05842858 
+pathway  5 > sig: 0.01895834 
+pathway  6 > sig: 0.006988371 
+pathway  7 > sig: 0.105161 
+pathway  8 > sig: 0.007178292 
+pathway  9 > sig: 0.02548776 
+pathway  10 > sig: 0.003292644 
+pathway  11 > sig: 0.06837964 
+pathway  11  k= 6 ( 6 ) wj= 1 >new sig: 0.01468568 | accepted!
+pathway  12 > sig: 0.004927603 
+pathway  13 > sig: 0.06298033 
+pathway  14 > sig: 0.03117504 
+pathway  15 > sig: 0.01602515 
+pathway  16 > sig: 0.01829816 
+pathway  17 > sig: 0.06413347 
+pathway  17  k= 20 ( 20 ) wj= 3 >new sig: 0.0378183 | accepted!
+skipping pathway  18  k1= 1 
+pathway  19 > sig: 0.01164546 
+pathway  20 > sig: 0.01937204 
+pathway  21 > sig: 0.0324682 
+pathway  22 > sig: 0.01655725 
+pathway  23 > sig: 0.07793846 
+pathway  23  k= 6 ( 6 ) wj= 4 >new sig: 0.02228995 | accepted!
+skipping pathway  24  k1= 1 
+pathway  25 > sig: 0.02466786 
+pathway  26 > sig: 0.01523929 
+pathway  27 > sig: 0.1368639 
+pathway  28 > sig: 0.1792865 
+pathway  29 > sig: 0.1633681 
+pathway  30 > sig: 0.02000111 
+skipping pathway  31  k2= 2 
+pathway  32 > sig: 0.004339147 
+pathway  33 > sig: 0.009696762 
+skipping pathway  34  k1= 1 
+pathway  35 > sig: 0.01411112 
+pathway  36 > sig: 0.02308224 
+pathway  37 > sig: 0.1596927 
+pathway  38 > sig: 0.01795465 
+pathway  39 > sig: 0.01919427 
+pathway  40 > sig: 0.03067152 
+pathway  41 > sig: 0.02206085 
+pathway  42 > sig: 0.04085855 
+pathway  43 > sig: 0.01558368 
+pathway  44 > sig: 0.03022703 
+skipping pathway  45  k1= 2 
+pathway  46 > sig: 0.1616225 
+pathway  47 > sig: 0.07911422 
+pathway  48 > sig: 0.01834986 
+pathway  49 > sig: 0.07322119 
+pathway  50 > sig: 0.0183776 
+pathway  51 > sig: 0.03159884 
+pathway  52 > sig: 0.08650123 
+pathway  53 > sig: 0.1115509 
+pathway  53  k= 12 ( 12 ) wj= 2 >new sig: 0.06606872 | accepted!
+pathway  53  k= 11 ( 11 ) wj= 5 >new sig: 0.06553877 x rejected
+pathway  54 > sig: 0.13955 
+pathway  54  k= 6 ( 6 ) wj= 3 >new sig: 0.03137323 | accepted!
+pathway  55 > sig: 0.1447452 
+skipping pathway  56  k1= 2 
+pathway  57 > sig: 0.1608818 
+pathway  58 > sig: 0.05153017 
+pathway  58  k= 10 ( 10 ) wj= 3 >new sig: 0.04105882 | accepted!
+pathway  59 > sig: 0.0483131 
+pathway  60 > sig: 0.009482229 
+pathway  61 > sig: 0.05672291 
+pathway  62 > sig: 0.02237072 
+pathway  63 > sig: 0.03713611 
+pathway  64 > sig: 0.02951346 
+pathway  65 > sig: 0.00392734 
+pathway  66 > sig: 0.01051031 
+pathway  67 > sig: 0.04344965 
+pathway  68 > sig: 0.00653268 
+pathway  69 > sig: 0.003521278 
+pathway  70 > sig: 0.02291614 
+pathway  71 > sig: 0.04321575 
+skipping pathway  72  k1= 0 
+skipping pathway  73  k1= 1 
+pathway  74 > sig: 0.0150217 
+pathway  75 > sig: 0.01004538 
+pathway  76 > sig: 0.05528308 
+pathway  77 > sig: 0.03958631 
+pathway  78 > sig: 0.121318 
+pathway  79 > sig: 0.09502921 
+skipping pathway  80  k1= 1 
+pathway  81 > sig: 0.05454751 
+pathway  82 > sig: 0.008959985 
+pathway  83 > sig: 0.01511012 
+pathway  84 > sig: 0.04357649 
+pathway  85 > sig: 0.02777817 
+pathway  86 > sig: 0.01909439 
+pathway  87 > sig: 0.03511141 
+pathway  88 > sig: 0.05144988 
+pathway  88  k= 8 ( 8 ) wj= 3 >new sig: 0.002451329 | accepted!
+pathway  89 > sig: 0.01646001 
+pathway  90 > sig: 0.02798499 
+pathway  91 > sig: 0.0743839 
+pathway  91  k= 21 ( 21 ) wj= 5 >new sig: 0.06601483 x rejected
+pathway  92 > sig: 0.008593527 
+pathway  93 > sig: 0.01288025 
+pathway  94 > sig: 0.00423658 
+pathway  95 > sig: 0.0164844 
+pathway  96 > sig: 0.009901414 
+pathway  97 > sig: 0.1054748 
+pathway  97  k= 15 ( 15 ) wj= 1 >new sig: 0.01240229 | accepted!
+pathway  98 > sig: 0.01868789 
+pathway  99 > sig: 0.06068259 
+pathway  99  k= 20 ( 20 ) wj= 4 >new sig: 0.01807828 | accepted!
+pathway  100 > sig: 0.1004051 
+pathway  100  k= 11 ( 11 ) wj= 2 >new sig: 0.009839338 | accepted!
+pathway  101 > sig: 0.09573359 
+pathway  101  k= 6 ( 6 ) wj= 1 >new sig: 0.04150287 | accepted!
+pathway  102 > sig: 0.1319661 
+pathway  103 > sig: 0.02276239 
+pathway  104 > sig: 0.02451877 
+pathway  105 > sig: 0.02226938 
+pathway  106 > sig: 0.04713053 
+pathway  107 > sig: 0.005477151 
+pathway  108 > sig: 0.01455398 
+pathway  109 > sig: 0.01482006 
+pathway  110 > sig: 0.01099732 
+pathway  111 > sig: 0.0702412 
+pathway  111  k= 6 ( 6 ) wj= 2 >new sig: 0.02242632 | accepted!
+pathway  112 > sig: 0.02235396 
+pathway  113 > sig: 0.01534132 
+pathway  114 > sig: 0.06537346 
+pathway  114  k= 37 ( 37 ) wj= 1 >new sig: 0.006341154 | accepted!
+pathway  115 > sig: 0.06923406 
+pathway  115  k= 21 ( 21 ) wj= 3 >new sig: 0.05733993 | accepted!
+pathway  115  k= 20 ( 20 ) wj= 2 >new sig: 0.05928763 x rejected
+pathway  116 > sig: 0.04244213 
+pathway  117 > sig: 0.04355781 
+pathway  118 > sig: 0.01888025 
+pathway  119 > sig: 0.05020912 
+pathway  119  k= 21 ( 21 ) wj= 1 >new sig: 0.04339715 x rejected
+pathway  120 > sig: 0.04457799 
+pathway  121 > sig: 0.01225153 
+pathway  122 > sig: 0.008759888 
+pathway  123 > sig: 0.02112734 
+pathway  124 > sig: 0.01476125 
+pathway  125 > sig: 0.02462606 
+pathway  126 > sig: 0.007122077 
+pathway  127 > sig: 0.0213495 
+pathway  128 > sig: 0.06996225 
+pathway  128  k= 21 ( 21 ) wj= 1 >new sig: 0.04106812 | accepted!
+pathway  129 > sig: 0.02966046 
+pathway  130 > sig: 0.05319918 
+pathway  130  k= 7 ( 7 ) wj= 5 >new sig: 0.03427574 | accepted!
+pathway  131 > sig: 0.008170378 
+pathway  132 > sig: 0.007564924 
+pathway  133 > sig: 0.00923273 
+pathway  134 > sig: 0.01671111 
+skipping pathway  135  k1= 1 
+pathway  136 > sig: 0.02715739 
+pathway  137 > sig: 0.05293173 
+pathway  138 > sig: 0.03476789 
+pathway  139 > sig: 0.1169657 
+pathway  139  k= 20 ( 20 ) wj= 5 >new sig: 0.09700934 | accepted!
+pathway  139  k= 19 ( 19 ) wj= 4 >new sig: 0.07692174 | accepted!
+pathway  139  k= 18 ( 18 ) wj= 5 >new sig: 0.07601566 x rejected
+pathway  140 > sig: 0.07853647 
+pathway  140  k= 38 ( 38 ) wj= 1 >new sig: 0.03878124 | accepted!
+pathway  141 > sig: 0.02834468 
+pathway  142 > sig: 0.05235838 
+pathway  142  k= 36 ( 36 ) wj= 5 >new sig: 0.03076117 | accepted!
+pathway  143 > sig: 0.06175628 
+pathway  143  k= 29 ( 29 ) wj= 1 >new sig: 0.04386623 | accepted!
+pathway  144 > sig: 0.1015299 
+pathway  144  k= 7 ( 7 ) wj= 5 >new sig: 0.02853138 | accepted!
+pathway  145 > sig: 0.01135014 
+pathway  146 > sig: 0.008059279 
+pathway  147 > sig: 0.08403696 
+pathway  147  k= 24 ( 24 ) wj= 1 >new sig: 0.0132953 | accepted!
+pathway  148 > sig: 0.02600645 
+pathway  149 > sig: 0.04264986 
+pathway  150 > sig: 0.05703658 
+pathway  150  k= 15 ( 15 ) wj= 3 >new sig: 0.04209565 | accepted!
+pathway  151 > sig: 0.01270035 
+pathway  152 > sig: 0.03035557 
+pathway  153 > sig: 0.05838006 
+pathway  153  k= 22 ( 22 ) wj= 5 >new sig: 0.05080035 x rejected
+pathway  154 > sig: 0.01484676 
+pathway  155 > sig: 0.05553621 
+pathway  155  k= 10 ( 10 ) wj= 1 >new sig: 0.02812909 | accepted!
+pathway  156 > sig: 0.03843642 
+pathway  157 > sig: 0.0299259 
+pathway  158 > sig: 0.01044956 
+pathway  159 > sig: 0.04679056 
+pathway  160 > sig: 0.02589111 
+pathway  161 > sig: 0.01647182 
+pathway  162 > sig: 0.03445199 
+pathway  163 > sig: 0.04858475 
+pathway  164 > sig: 0.04193301 
+pathway  165 > sig: 0.02249671 
+pathway  166 > sig: 0.02469225 
+pathway  167 > sig: 0.03359189 
+pathway  168 > sig: 0.01797844 
+pathway  169 > sig: 0.02499179 
+pathway  170 > sig: 0.01830454 
+pathway  171 > sig: 0.06946726 
+pathway  171  k= 18 ( 18 ) wj= 1 >new sig: 0.03560348 | accepted!
+pathway  172 > sig: 0.02172777 
+pathway  173 > sig: 0.01976871 
+pathway  174 > sig: 0.01688199 
+pathway  175 > sig: 0.02991903 
+pathway  176 > sig: 0.03191392 
+pathway  177 > sig: 0.01679095 
+pathway  178 > sig: 0.0176832 
+pathway  179 > sig: 0.01321918 
+pathway  180 > sig: 0.02464245 
+pathway  181 > sig: 0.01008429 
+pathway  182 > sig: 0.01009942 
+pathway  183 > sig: 0.02667018 
+pathway  184 > sig: 0.07492816 
+pathway  184  k= 22 ( 22 ) wj= 2 >new sig: 0.06192102 | accepted!
+pathway  184  k= 21 ( 21 ) wj= 4 >new sig: 0.05420887 x rejected
+pathway  185 > sig: 0.02650695 
+pathway  186 > sig: 0.01906888 
+pathway  187 > sig: 0.0177708 
+pathway  188 > sig: 0.00859367 
+pathway  189 > sig: 0.01347859 
+pathway  190 > sig: 0.06028943 
+pathway  190  k= 21 ( 21 ) wj= 3 >new sig: 0.05297742 x rejected
+pathway  191 > sig: 0.07751031 
+pathway  191  k= 19 ( 19 ) wj= 1 >new sig: 0.02552354 | accepted!
+pathway  192 > sig: 0.04156444 
+pathway  193 > sig: 0.05634511 
+pathway  193  k= 24 ( 24 ) wj= 5 >new sig: 0.04950348 x rejected
+pathway  194 > sig: 0.005170434 
+pathway  195 > sig: 0.04648947 
+pathway  196 > sig: 0.02855642 
+pathway  197 > sig: 0.01371542 
+pathway  198 > sig: 0.03203578 
+pathway  199 > sig: 0.09497642 
+pathway  199  k= 25 ( 25 ) wj= 4 >new sig: 0.03091418 | accepted!
+pathway  200 > sig: 0.02697448 
+pathway  201 > sig: 0.02551675 
+pathway  202 > sig: 0.03054973 
+pathway  203 > sig: 0.05770375 
+pathway  203  k= 17 ( 17 ) wj= 5 >new sig: 0.05787397 x rejected
+pathway  204 > sig: 0.06564183 
+pathway  204  k= 13 ( 13 ) wj= 4 >new sig: 0.05708091 x rejected
+pathway  205 > sig: 0.06534557 
+pathway  205  k= 17 ( 17 ) wj= 5 >new sig: 0.04964259 | accepted!
+pathway  206 > sig: 0.05071615 
+pathway  206  k= 14 ( 14 ) wj= 5 >new sig: 0.05357205 x rejected
+pathway  207 > sig: 0.06937276 
+pathway  207  k= 11 ( 11 ) wj= 5 >new sig: 0.06535072 x rejected
+pathway  208 > sig: 0.03912464 
+pathway  209 > sig: 0.06058444 
+pathway  209  k= 12 ( 12 ) wj= 1 >new sig: 0.03682786 | accepted!
+pathway  210 > sig: 0.05929091 
+pathway  210  k= 6 ( 6 ) wj= 4 >new sig: 0.05198305 x rejected
+pathway  211 > sig: 0.0192889 
+pathway  212 > sig: 0.03579217 
+pathway  213 > sig: 0.02262936 
+pathway  214 > sig: 0.04461392 
+pathway  215 > sig: 0.04709519 
+pathway  216 > sig: 0.01268011 
+pathway  217 > sig: 0.03091469 
+pathway  218 > sig: 0.05567497 
+pathway  218  k= 7 ( 7 ) wj= 1 >new sig: 0.04790281 x rejected
+pathway  219 > sig: 0.008547805 
+pathway  220 > sig: 0.01780805 
+pathway  221 > sig: 0.01808643 
+pathway  222 > sig: 0.07216902 
+pathway  222  k= 19 ( 19 ) wj= 4 >new sig: 0.03297624 | accepted!
+pathway  223 > sig: 0.02217573 
+pathway  224 > sig: 0.05303826 
+pathway  224  k= 26 ( 26 ) wj= 3 >new sig: 0.05293643 x rejected
+pathway  225 > sig: 0.01771077 
+pathway  226 > sig: 0.08963968 
+pathway  226  k= 18 ( 18 ) wj= 3 >new sig: 0.0370669 | accepted!
+pathway  227 > sig: 0.04196734 
+pathway  228 > sig: 0.07298929 
+pathway  228  k= 9 ( 9 ) wj= 1 >new sig: 0.07253857 x rejected
+pathway  229 > sig: 0.01757439 
+pathway  230 > sig: 0.0171132 
+pathway  231 > sig: 0.01051351 
+pathway  232 > sig: 0.04752882 
+pathway  233 > sig: 0.01102032 
+pathway  234 > sig: 0.04495429 
+pathway  235 > sig: 0.07262497 
+pathway  235  k= 8 ( 8 ) wj= 1 >new sig: 0.06058534 | accepted!
+pathway  235  k= 7 ( 7 ) wj= 5 >new sig: 0.06194296 x rejected
+pathway  236 > sig: 0.05543112 
+pathway  236  k= 18 ( 18 ) wj= 2 >new sig: 0.03308803 | accepted!
+pathway  237 > sig: 0.01932607 
+pathway  238 > sig: 0.03778286 
+pathway  239 > sig: 0.00744109 
+pathway  240 > sig: 0.08427815 
+pathway  240  k= 23 ( 23 ) wj= 1 >new sig: 0.04305317 | accepted!
+pathway  241 > sig: 0.05634289 
+skipping pathway  242  k1= 1 
+pathway  243 > sig: 0.02827323 
+pathway  244 > sig: 0.04304383 
+pathway  245 > sig: 0.06668053 
+pathway  245  k= 9 ( 9 ) wj= 1 >new sig: 0.01049147 | accepted!
+pathway  246 > sig: 0.05958406 
+pathway  246  k= 6 ( 6 ) wj= 4 >new sig: 0.04547364 | accepted!
+pathway  247 > sig: 0.05729339 
+pathway  247  k= 8 ( 8 ) wj= 2 >new sig: 0.0278301 | accepted!
+pathway  248 > sig: 0.02795211 
+pathway  249 > sig: 0.01529539 
+pathway  250 > sig: 0.07689197 
+pathway  250  k= 13 ( 13 ) wj= 4 >new sig: 0.01165223 | accepted!
+pathway  251 > sig: 0.1255407 
+pathway  251  k= 8 ( 8 ) wj= 2 >new sig: 0.04809992 | accepted!
+pathway  252 > sig: 0.06142319 
+pathway  252  k= 17 ( 17 ) wj= 5 >new sig: 0.03608244 | accepted!
+pathway  253 > sig: 0.09803548 
+pathway  254 > sig: 0.01236372 
+pathway  255 > sig: 0.01197652 
+pathway  256 > sig: 0.04734458 
+pathway  257 > sig: 0.1272234 
+pathway  257  k= 9 ( 9 ) wj= 1 >new sig: 0.03475454 | accepted!
+pathway  258 > sig: 0.03130023 
+pathway  259 > sig: 0.02551946 
+pathway  260 > sig: 0.0347052 
+pathway  261 > sig: 0.03798018 
+pathway  262 > sig: 0.0341082 
+pathway  263 > sig: 0.02480726 
+pathway  264 > sig: 0.03155851 
+pathway  265 > sig: 0.1321583 
+pathway  265  k= 9 ( 9 ) wj= 2 >new sig: 0.08220169 | accepted!
+pathway  265  k= 8 ( 8 ) wj= 2 >new sig: 0.07160781 | accepted!
+pathway  265  k= 7 ( 7 ) wj= 1 >new sig: 0.06265908 x rejected
+pathway  266 > sig: 0.02475501 
+pathway  267 > sig: 0.06123281 
+pathway  267  k= 11 ( 11 ) wj= 3 >new sig: 0.0589986 x rejected
+skipping pathway  268  k1= 2 
+pathway  269 > sig: 0.04498451 
+pathway  270 > sig: 0.08519341 
+pathway  270  k= 20 ( 20 ) wj= 1 >new sig: 0.03562385 | accepted!
+pathway  271 > sig: 0.0290584 
+pathway  272 > sig: 0.03169066 
+pathway  273 > sig: 0.04040898 
+pathway  274 > sig: 0.04366023 
+pathway  275 > sig: 0.03233695 
+pathway  276 > sig: 0.04613698 
+pathway  277 > sig: 0.0065422 
+pathway  278 > sig: 0.05950419 
+pathway  278  k= 25 ( 25 ) wj= 3 >new sig: 0.03989123 | accepted!
+pathway  279 > sig: 0.02402696 
+pathway  280 > sig: 0.02445358 
+pathway  281 > sig: 0.01103272 
+pathway  282 > sig: 0.01591883 
+pathway  283 > sig: 0.0516145 
+pathway  283  k= 21 ( 21 ) wj= 1 >new sig: 0.0257008 | accepted!
+pathway  284 > sig: 0.04935683 
+pathway  285 > sig: 0.019498 
+pathway  286 > sig: 0.06976015 
+pathway  286  k= 31 ( 31 ) wj= 5 >new sig: 0.06008848 | accepted!
+pathway  286  k= 30 ( 30 ) wj= 5 >new sig: 0.05531666 x rejected
+pathway  287 > sig: 0.0130007 
+pathway  288 > sig: 0.08884321 
+pathway  288  k= 31 ( 31 ) wj= 5 >new sig: 0.04442002 | accepted!
+pathway  289 > sig: 0.01769236 
+pathway  290 > sig: 0.03594026 
+pathway  291 > sig: 0.01577376 
+pathway  292 > sig: 0.01541387 
+pathway  293 > sig: 0.007176987 
+pathway  294 > sig: 0.05202093 
+pathway  294  k= 35 ( 35 ) wj= 2 >new sig: 0.05030402 x rejected
+pathway  295 > sig: 0.06777845 
+pathway  295  k= 34 ( 34 ) wj= 1 >new sig: 0.02673396 | accepted!
+pathway  296 > sig: 0.01288689 
+pathway  297 > sig: 0.03322344 
+pathway  298 > sig: 0.009200523 
+pathway  299 > sig: 0.008590069 
+pathway  300 > sig: 0.02743009 
+pathway  301 > sig: 0.006187757 
+pathway  302 > sig: 0.03547306 
+pathway  303 > sig: 0.04948555 
+pathway  304 > sig: 0.007081823 
+pathway  305 > sig: 0.02533146 
+pathway  306 > sig: 0.03464293 
+pathway  307 > sig: 0.005867477 
+pathway  308 > sig: 0.04328729 
+pathway  309 > sig: 0.006783713 
+pathway  310 > sig: 0.04950856 
+pathway  311 > sig: 0.02665222 
+pathway  312 > sig: 0.03297268 
+pathway  313 > sig: 0.004404044 
+pathway  314 > sig: 0.01316669 
+pathway  315 > sig: 0.0067919 
+pathway  316 > sig: 0.02229175 
+pathway  317 > sig: 0.02956396 
+pathway  318 > sig: 0.01665769 
+pathway  319 > sig: 0.05902025 
+pathway  319  k= 26 ( 26 ) wj= 1 >new sig: 0.02891322 | accepted!
+pathway  320 > sig: 0.00861964 
+pathway  321 > sig: 0.04616394 
+pathway  322 > sig: 0.01216352 
+pathway  323 > sig: 0.02970614 
+pathway  324 > sig: 0.02031543 
+skipping pathway  325  k1= 2 
+skipping pathway  326  k1= 1 
+pathway  327 > sig: 0.03516644 
+pathway  328 > sig: 0.06909315 
+pathway  328  k= 10 ( 10 ) wj= 2 >new sig: 0.008609166 | accepted!
+pathway  329 > sig: 0.006394501 
+skipping pathway  330  k1= 1 
+skipping pathway  331  k1= 2 
+pathway  332 > sig: 0.01613594 
+pathway  333 > sig: 0.05507747 
+pathway  333  k= 13 ( 13 ) wj= 5 >new sig: 0.05242742 x rejected
+pathway  334 > sig: 0.02826927 
+pathway  335 > sig: 0.1364055 
+pathway  335  k= 14 ( 14 ) wj= 4 >new sig: 0.0773129 | accepted!
+pathway  335  k= 13 ( 13 ) wj= 5 >new sig: 0.07531268 x rejected
+pathway  336 > sig: 0.05084248 
+pathway  336  k= 9 ( 9 ) wj= 1 >new sig: 0.007075882 | accepted!
+pathway  337 > sig: 0.07407608 
+pathway  337  k= 30 ( 30 ) wj= 1 >new sig: 0.04600309 | accepted!
+321 pathways processed with start= by ranks 
