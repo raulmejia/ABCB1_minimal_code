@@ -91,18 +91,18 @@ args <- parser$parse_args( )
 ### Reading the data #####################################
 ##########################################################
 yourdf <- read.table( file=args$dataframe , sep= "\t", header=TRUE, quote = "" , row.names = NULL , stringsAsFactors = FALSE )
-# Path_to_df <-"/home/rmejia/Documents/ABCB1_minimal/Results/BigDfPTD/TCGA/DF_Pw_Target_PDS_LogFC_adjpvalTCGA_Basal_under_percentile_25_top20_DEG_log2only.tsv" 
+# Path_to_df <-"/DF_Pw_Target_PDS_LogFC_adjpvalTCGA_Basal_under_percentile_25_top20_DEG_log2only.tsv" 
 # yourdf <- read.table( file=Path_to_df , sep= "\t", header=TRUE, quote = "" , row.names = NULL , stringsAsFactors = FALSE )
 
 columnwithgenesymbols <-args$columnname
 # columnwithgenesymbols <- "Target"
 
 Path_of_Results <- normalizePath( args$outputfolder )
-# Path_of_Results <- "/home/rmejia/Documents/ABCB1_minimal/Results/BigDfPTD/TCGA"
+# Path_of_Results <- "Results/BigDfPTD/TCGA"
 dir.create( Path_of_Results, recursive = TRUE)
 
 Label_for_Results <- args$label
-# Label_for_Results  <- "Drugg-target_annotated"
+# Label_for_Results  <- "Drug-target_annotated"
 
 ################################
 ### Annotating the drugs
