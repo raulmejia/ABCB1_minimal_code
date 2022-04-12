@@ -10,6 +10,7 @@
 #    DfDEG
 
 # to do change: colnames(Bigdf)[1:2] <- c("Pathway", "Target") by colnames(Bigdf)[1:2] <- c("Pathway", "Target-Gene")
+# Use this style for pasing the arguments https://github.com/raulmejia/General_statistical_tools/blob/main/Correlations/corr_between_only_numerical_variables/Correlation_matrix_n_Heatmap_out_of_a_numeric_matrix.R
 # keep all the columns from: Bigdf <- ldply(list_GnDg, data.frame)
 
 ################################################################################
