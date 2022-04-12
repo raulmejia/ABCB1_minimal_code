@@ -1,11 +1,8 @@
-################################################################################
-##  This program receives a data frame of your patways definitions in GMT format
-##  PDS table, DEG table  
-##  and retrieves a data frame of Pathway, Gene, PDS, logFC, adjPval
-##  Author: Raúl Alejandro Mejía Pedroza github: https://github.com/raulmejia
-##
-# Purpose this program receives a GMT file with the pathways (pws) definitions, a tsv with deregulated Pws and their scores, a DEG table
+######################################################################################
+# This program receives a GMT file with the pathways (pws) definitions, a tsv with deregulated Pws and their scores, a DEG table
 # the programs does the intersection and retrieves a data frame with the Pw, target(gene), PDS (or what ever single dereg value), LogFC and pval (from the DEG) 
+##  Author: Raúl Alejandro Mejía Pedroza github: https://github.com/raulmejia
+######################################################################################
 #
 # Note: pwdefinitions your PtwDf_defintions and your PtwDf_defintions tables should be in the same Pathway database (KEGG , GO , etc )
 #
@@ -113,16 +110,13 @@ args <- parser$parse_args( )
 ### Reading the data #####################################
 ##########################################################
 PtwDf_defintions <- read.table( file=args$pwdefinitions , sep= "\t", header=FALSE, quote = "" , row.names = 1 , stringsAsFactors = FALSE )
-# Path_to_Ptwydb <-"/home/rmejia/Documents/ABCB1_minimal/Results/KEGGDB/KEGG_pathways_in_df_genesymbol.tsv"
-# PtwDf_defintions <- read.table( file=Path_to_Ptwydb , sep= "\t", header=FALSE, quote = "" , row.names = 1 , stringsAsFactors = FALSE)
+# Path_to_Ptwydb <-"/home/rmejia/Documents/ABCB1_minimal/Results/KEGGDB/KEGG_pathways_in_df_genesymbol.tsv" ; PtwDf_defintions <- read.table( file=Path_to_Ptwydb , sep= "\t", header=FALSE, quote = "" , row.names = 1 , stringsAsFactors = FALSE)
 
 Df_your_Dereg_Pw <- read.table( file = args$matrixpds , sep= "\t", header=TRUE, row.names = 1, quote = "" , stringsAsFactors = FALSE )
-# Path_to_your_Matrix <- "/home/rmejia/Documents/ABCB1_minimal/Results/Pathifier/Basal/TCGA/TCGA_Basal_under_percentile_25_stbl_10_median_PDSz_ordered_matrix_Top20.txt"
-# Df_your_Dereg_Pw <- read.table( file = Path_to_your_Matrix , sep= "\t", header=TRUE, row.names = 1, quote = "" , stringsAsFactors = FALSE)
+# Path_to_your_Matrix <- "/home/rmejia/Documents/ABCB1_minimal/Results/Pathifier/Basal/TCGA/TCGA_Basal_under_percentile_25_stbl_10_median_PDSz_ordered_matrix_Top20.txt" ; Df_your_Dereg_Pw <- read.table( file = Path_to_your_Matrix , sep= "\t", header=TRUE, row.names = 1, quote = "" , stringsAsFactors = FALSE)
 
 DfDEG <- read.table( file=args$dgetable , sep= "\t", header=TRUE, quote = "" , row.names = 1, stringsAsFactors = FALSE )
-# Path_your_DEG <-"/home/rmejia/Documents/ABCB1_minimal/Results/DEG/TCGA/log2only/padj10_3_lfc1_results_DESeq_DGE_TCGA_Basal_ABCB1_under_per25_only_log2transformed_lfc2_of0_6_padjof0_05.tsv"
-# DfDEG <- read.table( Path_your_DEG , sep= "\t", header=TRUE, quote = "" , row.names = 1, stringsAsFactors = FALSE)
+# Path_your_DEG <-"/home/rmejia/Documents/ABCB1_minimal/Results/DEG/TCGA/log2only/padj10_3_lfc1_results_DESeq_DGE_TCGA_Basal_ABCB1_under_per25_only_log2transformed_lfc2_of0_6_padjof0_05.tsv" ; DfDEG <- read.table( Path_your_DEG , sep= "\t", header=TRUE, quote = "" , row.names = 1, stringsAsFactors = FALSE)
 
 # Deleting the indicator row (of "Normal") in DEG data frame
 NORMALpos <- which( rownames(DfDEG) %in% "NORMAL" )
