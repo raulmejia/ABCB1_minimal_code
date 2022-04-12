@@ -125,40 +125,55 @@ vector_char_DEGs_in_DegPws <- unlist( result_list )
 
 Deg_Pathways_with_at_least_one_DEG <- rep(names(result_list), times= as.numeric(lapply(result_list, length)))
 
+#### Pathways from your definitions with at least a Differential Expressed gene
 DF_Pws_DGEs <- cbind( Deg_Pathways_with_at_least_one_DEG,  vector_char_DEGs_in_DegPws)
-colnames( DF_Pws_DGEs) <- c("Pathways","Genes")
+colnames( DF_Pws_DGEs) <- c("Pathways","Target")
 rownames( DF_Pws_DGEs) <- NULL
 
 #######################
 ### Inserting the PDS
 #######################
-
 str(DF_Pws_DGEs)
 DF_Pws_DGEs[,1]
 DF_Pws_DGEs[,2]
 
-which( rownames(Df_your_Dereg_Pw) %in% DF_Pws_DGEs[ ,"Pathways"] )
+#Positions <- which( rownames(Df_your_Dereg_Pw) %in% DF_Pws_DGEs[ ,"Pathways"] )
+#Df_your_Dereg_Pw[Positions,] 
 
-Df_your_Dereg_Pw 
+Positions_in_DF <- which(  DF_Pws_DGEs[ ,"Pathways"] %in%   rownames(Df_your_Dereg_Pw) )
+DF_Pws_DGEs_PDS <- DF_Pws_DGEs[ Positions_in_DF, ]
+DF_Pws_DGEs_PDS <- as.data.frame(DF_Pws_DGEs_PDS)
+
+DF_Pws_DGEs_PDS$PDS <- rep(NA,dim(DF_Pws_DGEs_PDS)[1])
+
+for( k in rownames( Df_your_Dereg_Pw ) ){
+  positions <- which( as.character( DF_Pws_DGEs_PDS[,"Pathways"])  %in% k )
+  DF_Pws_DGEs_PDS$PDS[positions] <- Df_your_Dereg_Pw[k,2]
+}
+
+
+
 
 #######################
 ### Inserting LogFc & Padj
 #######################
+DF_Pws_DGEs_PDS_LogFC_Padj <- DF_Pws_DGEs_PDS
+DF_Pws_DGEs_PDS_LogFC_Padj$log2FC     <- rep( NA, dim( DF_Pws_DGEs_PDS_LogFC_Padj )[1] )
+DF_Pws_DGEs_PDS_LogFC_Padj$DEGpvalue  <- rep( NA, dim( DF_Pws_DGEs_PDS_LogFC_Padj )[1] )
+
+# !!! Error why the gene is not in DfDEG ???
+k="PDHA1"
+for( k in rownames(DfDEG ) ){
+  positions <- which( as.character( DF_Pws_DGEs_PDS_LogFC_Padj[,"Target"])  %in% k )
+  DF_Pws_DGEs_PDS_LogFC_Padj$log2FC[positions] <- DfDEG[k,"log2FoldChange"] # The DEG is not here !! (in the DfDEG[700:810,]) why ?? it was supposed to be present by construction!
+  DF_Pws_DGEs_PDS_LogFC_Padj$DEGpvalue[positions] <- DfDEG[k,"padj"]
+}
+
+Bigdf <- DF_Pws_DGEs_PDS_LogFC_Padj
+
+
 
 # DfDEG 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ##########################################################
 ###### Adding log2FC and DGE padj column 
